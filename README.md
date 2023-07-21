@@ -1,5 +1,6 @@
 # 30DaysofJavascript
-Over the next 30 days, I will be embarking on an immersive journey to enhance my JavaScript skills and deepen my understanding of this powerful programming language. 
+
+Over the next 30 days, I will be embarking on an immersive journey to enhance my JavaScript skills and deepen my understanding of this powerful programming language.
 
 💻 Day 1: Exercises
 Write a single line comment which says, comments can make code readable
@@ -92,6 +93,7 @@ Use match() to count the number of all because in the following sentence:'You ca
 Clean the following text and find the most frequent word (hint, use replace and regular expressions).
 
     const sentence = '%I $am@% a %tea@cher%, &and& I lo%#ve %te@a@ching%;. The@re $is no@th@ing; &as& mo@re rewarding as educa@ting &and& @emp%o@weri@ng peo@ple. ;I found tea@ching m%o@re interesting tha@n any ot#her %jo@bs. %Do@es thi%s mo@tiv#ate yo@u to be a tea@cher!? %Th#is 30#Days&OfJavaScript &is al@so $the $resu@lt of &love& of tea&ching'
+
 Calculate the total annual income of the person by extracting the numbers from the following text. 'He earns 5000 euro from salary per month, 10000 euro annual bonus, 15000 euro online courses per month.'
 
 💻 Day 3: Exercises
@@ -220,9 +222,9 @@ If a is greater than b return 'a is greater than b' else 'a is less than b'. Try
 
 using if else
 ternary operator.
-  let a = 4
-  let b = 3
-  4 is greater than 3
+let a = 4
+let b = 3
+4 is greater than 3
 Even numbers are divisible by 2 and the remainder is zero. How do you check, if a number is even or not using JavaScript?
 
 Enter a number: 2
@@ -243,8 +245,8 @@ December, January or February, the season is Winter.
 March, April or May, the season is Spring
 June, July or August, the season is Summer
 Check if a day is weekend day or a working day. Your script will take day as an input.
-    What is the day  today? Saturday
-    Saturday is a weekend.
+What is the day today? Saturday
+Saturday is a weekend.
 
     What is the day today? saturDaY
     Saturday is a weekend.
@@ -254,17 +256,18 @@ Check if a day is weekend day or a working day. Your script will take day as an 
 
     What is the day today? FrIDAy
     Friday is a working day.
+
 Exercises: Level 3
 Write a program which tells the number of days in a month.
-  Enter a month: January
-  January has 31 days.
+Enter a month: January
+January has 31 days.
 
-  Enter a month: JANUARY
-  January has 31 day
+Enter a month: JANUARY
+January has 31 day
 
-  Enter a month: February
-  February has 28 days.
+Enter a month: February
+February has 28 days.
 
-  Enter a month: FEbruary
-  February has 28 days.
+Enter a month: FEbruary
+February has 28 days.
 Write a program which tells the number of days in a month, now consider leap year.
