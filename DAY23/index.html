@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyboard Code Generator</title>
+</head>
+<body style="display: flex; justify-content: center; align-items: center; width: 100%; height: 100vh; flex-direction: column;">
+   <div class="box" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; padding: 10px;">
+    <h1>You pressed <span style="color: green;" id="keyboardCode"></span></h1>
+   </div>
+   <div class="box" style="box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px; padding: 10px; margin: 16px;">
+    <h1><span style="color: green;" id="keyboardCode1"></span></h1>
+   </div>
+    
+
+    <script>
+        // Get the paragraph element to display the keyboard code
+        const keyboardCodeElement = document.getElementById('keyboardCode');
+
+        // Add a 'keydown' event listener to the document
+        document.addEventListener('keydown', (event) => {
+            // Get the keyboard code from the event object
+            const keyboardCode = event.code;
+
+            // Display the keyboard code in the paragraph element
+            keyboardCodeElement.textContent = keyboardCode.replace('Key','');
+            document.getElementById('keyboardCode1').textContent = event.keyCode
+        });
+    </script>
+</body>
+</html>
+
+
+
+
+<!-- Project One  -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        }
+        h1,h2,h3{
+            text-align: center;
+        }
+        h1{
+            color: green;
+        }
+        input:focus{
+            outline-color: green;
+        }
+        .wrapper{
+            width: 55%;
+            margin: auto;
+        }
+        .inputBox{
+            width: 100%;
+            display: flex;
+            gap: 5px;
+        }
+        .inputBox input{
+            flex: 2;
+        }
+        .inputBox button{
+            flex: 1;
+            border: none;
+        }
+        .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 70%;
+      margin: auto;
+    }
+    .number {
+      width: 80px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: white;
+      margin: 5px;
+    }
+    .even {
+      background-color: green;
+    }
+    .odd {
+      background-color: rgb(220, 220, 3);
+    }
+    .prime {
+      background-color: red;
+    }
+    </style>
+</head>
+<body>
+    <h1>Number Generator</h1>
+    <h2>30 Days of JavaScript: DOM Day 3</h2>
+    <h3>Author:Gursimranjit Singh</h3>
+   <div class="wrapper">
+    <div id="err" style="color: red; display: none;">Enter value must be a number</div>
+    <div class="inputBox">
+        <input id="num"  style="padding: 12px 18px;" type="text" required="true">
+        <button id="btn" style="background-color: green; color: white; font-size: 1rem; padding: 12px 18px;">Generate Numbers</button>
+    </div>
+   </div>
+   <div class="container" id="numbersContainer"></div>
+   
+</body>
+<script src="./excercise1.js"></script>
+</html> -->

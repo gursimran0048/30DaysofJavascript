@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-image: url('./galaxy.gif');
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+}
+
+.wrapper {
+    width: 70%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+h1 {
+    margin-top: 20px;
+    color: whitesmoke;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 3rem;
+}
+
+.inputWrapper {
+    margin-top: 55px;
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    align-items: center;
+}
+
+.inputWrapper select,
+input,
+button {
+    padding: 14px 18px;
+    font-size: 1.25rem;
+}
+
+.inputWrapper button {
+    background-color: rgb(129, 128, 128);
+    color: white;
+    border: none;
+
+}
+
+.inputWrapper input {
+    flex: 2;
+}
+
+.planetWrapper {
+    margin-top: 60px;
+    background-color: rgba(224, 224, 224, 0.2);
+    /* Use rgba for opacity */
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+    /* Add a box-shadow for frosted glass effect */
+    padding: 20px 30px;
+    backdrop-filter: blur(1px);
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.planetWrapper h3 {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+
+.circle {
+    width: 170px;
+    height: 170px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    overflow: auto;
+    align-items: center;
+    text-align: center;
+    margin: 15px auto;
+    font-size: 2rem;
+    color: whitesmoke;
+    background-color: rgba(224, 224, 224, 0.4);
+}
+
+option[disabled] {
+    color: gray;
+}

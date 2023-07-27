@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>JavaScript for Everyone:DOM</title>
+  </head>
+
+  <link rel="stylesheet" href="style.css" />
+
+  <body>
+    <div class="wrapper">
+      <h1>Asabeneh Yetayeh challenges in <span id="year">2023</span></h1>
+      <h2>30DaysOfJavaScript Challenge</h2>
+      <h3 id="timeStamp">Time Stamp</h3>
+      <ul>
+        <li class="listItem">
+          <div class="days">
+            30 DaysOfPython Challenge Done
+          </div>
+          <div class="name">
+            <dl>Phython</dl>
+            <dd>
+              <ul>
+                <li>Flask</li>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Statistics</li>
+                <li>API</li>
+                <li>MongoDB</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="done">
+            Done
+          </div>
+        </li>
+        <li class="listItem">
+          <div class=days">
+            30DaysOfJavaScript Challenge Ongoing
+          </div>
+          <div class="name">
+            <dl>JavaScript</dl>
+            <dd>
+              <ul>
+                <li>ES6</li>
+                <li>Promise</li>
+                <li>async and await</li>
+                <li>DOM</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="done">
+            Ongoing
+          </div>
+        </li>
+        <li class="listItem">
+          <div class="days">
+            30DaysOfReact Challenge Coming
+          </div>
+          <div class="name">
+            <dl>React</dl>
+            <dd>
+              <ul>
+                <li>React Router</li>
+                <li>Redux</li>
+                <li>Context API</li>
+                <li>React Hooks</li>
+                <li>MERN</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="done">
+            Coming
+          </div>
+        </li>
+        <li class="listItem">
+          <div class="days">
+            30DaysOfFullStack Challenge Coming
+          </div>
+          <div class="name">
+            <dl>Full Stack</dl>
+            <dd>
+              <ul>
+                <li>React</li>
+                <li>Redux</li>
+                <li>MongoDB</li>
+                <li>Node</li>
+                <li>MERN</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="done">
+            Coming
+          </div>
+        </li>
+        <li class="listItem">
+          <div class="days">
+            30DaysOfDataAnalysis Challenge Coming
+          </div>
+          <div class="name">
+            <dl>Data Analysis</dl>
+            <dd>
+              <ul>
+                <li>Python</li>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Statistics</li>
+                <li>Visualization</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="done">
+            Coming
+          </div>
+        </li>
+        <li class="listItem">
+          <div class="days">
+            30DaysOfReactNative Challenge Coming
+          </div>
+          <div class="name">
+            <dl>React Native</dl>
+            <dd>
+              <ul>
+                <li>ReactNative</li>
+                <li>Redux</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="done">
+            Coming
+          </div>
+        </li>
+        <li class="listItem">
+          <div class="days">
+            30DaysOfMachineLearning Challenge Coming
+          </div>
+          <div class="name">
+            <dl>MachineLearning</dl>
+            <dd>
+              <ul>
+                <li>Python</li>
+                <li>Numpy</li>
+                <li>Pandas</li>
+                <li>Scikit-learn</li>
+                <li>Scipy</li>
+                <li>Linear Algebra</li>
+                <li>Statistics</li>
+                <li>Visualization</li>
+              </ul>
+            </dd>
+          </div>
+          <div class="done">
+            Coming
+          </div>
+        </li>
+      </ul>
+    </div>
+    <div class="userInfo">
+        <h1>Asabeneh Yetayeh</h1>
+        <div class="links">
+            <a href="https://linkedIn.com"><img src="https://cdn-icons-png.flaticon.com/512/38/38669.png" alt=""></a>
+            <a href="https://twitter.com"><img src="https://icon-library.com/images/twitter-icon-vector-black/twitter-icon-vector-black-7.jpg" alt=""></a>
+        <a href="https://github.com"><img src="https://cdn.pixabay.com/photo/2022/01/30/13/33/github-6980894_1280.png" alt=""></a> 
+        </div>
+        <p class="bio">
+            I am an educator, developer, motivator and content creator. I am a life-long learner. If you like to know more about me checkout my LinkedIn or Github profile. Thank you so much for joining in my quest of changing everyone to developer.
+        </p>
+
+        <div class="threecols">
+            <div class="titles">
+                Titles
+                <ul id="title">
+
+                </ul>
+            </div>
+            <div >
+                Skills
+                <ul id="skills">
+
+                </ul>
+            </div>
+            <div class="Qulalifications">
+                Qulalifications
+                <ul id="qual"> 
+
+                </ul>
+            </div>
+        </div>
+    </div>
+    <div class="keywordsWrapper">
+        <h3>Keywords</h3>
+        <div class="keywords"></div>
+    </div>
+  </body>
+  <script src="./excercise3.js" defer></script>
+</html>
+
+
+
+
+
+<!-- Project 2  -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 70%;
+            display: flex;
+            margin: auto;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+        .box{
+            width: 120px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1rem;
+            font-weight: bold;
+            color: black;
+            text-align: center;
+            border: 1px solid lightgray;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+
+    </div>
+</body>
+<script src="./excercise2.js"></script>
+</html> -->
+
+
+
+<!-- Project One  -->
+<!-- <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Number Styling</title>
+  <style>
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 50%;
+      margin: auto;
+    }
+    .number {
+      width: 80px;
+      height: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-weight: bold;
+      font-size: 1.5rem;
+      color: white;
+      margin: 5px;
+    }
+    .even {
+      background-color: green;
+    }
+    .odd {
+      background-color: rgb(220, 220, 3);
+    }
+    .prime {
+      background-color: red;
+    }
+  </style>
+</head>
+<body>
+  <div class="container" id="numbersContainer"></div>
+  <script src="./excercise1.js"></script>
+</body>
+</html> -->

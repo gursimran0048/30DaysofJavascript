@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="wrapper">
+        <h1>WORLD COUNTRIES LIST</h1>
+        <h3>Total Number of Countries: 193</h3>
+        <h3 id="data"></h3>
+        <div class="btns">
+            <button id="starting-word-btn" class="active">STARTING WORD</button>
+            <button id="search-any-word-btn">SEARCH WITH ANY WORD</button>
+            <button id="a-to-z-btn">A to Z</button>
+        </div>
+        <div class="inputBox">
+            <input id="sch" type="text" placeholder="Search Countries" onkeyup="onSearchChar(event)">
+            <img src="./search1.png" alt="">
+        </div>
+    </div>
+    <div class="cards">
+        <div class="card">
+            India
+        </div>
+    </div>
+   
+</body>
+<script src="./index.js"></script>
+</html>

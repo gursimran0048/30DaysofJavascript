@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    gap: 1px;
+    width: 65%;
+}
+
+.listItem {
+    list-style: none;
+    padding: 12px 18px;
+    background-color: green;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+
+dd {
+    display: none;
+}
+
+#year {
+    font-size: 6rem;
+}
+
+#timeStamp {
+    padding: 12px;
+}
+
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.userInfo h1 {
+    margin: 30px;
+    text-align: center;
+}
+
+.links img {
+    width: 40px;
+    height: 40px;
+}
+
+.bio {
+    width: 65%;
+    margin: 20px auto;
+    text-align: center;
+    line-height: 140%;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.threecols {
+    width: 65%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.threecols div {
+    font-size: 1.5rem;
+}
+
+.threecols ul li {
+    font-size: 1rem;
+}
+
+
+
+.threecols ul {
+    width: 100%;
+}
+
+.keywordsWrapper {
+    width: 65%;
+    margin: 16px auto;
+}
+
+.keywords {
+    width: 98%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 4px;
+}

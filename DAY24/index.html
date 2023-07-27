@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mass Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <h1>Calculate weight of an object on a planet</h1>
+    <div class="inputWrapper">
+        <input type="text" id="mass" placeholder="Enter mass in Kilograms">
+        <select name="" id="opt">
+            <option  value="" selected disabled>Select a Planet</option>
+            <option value="mercury">Mercury</option>
+            <option value="venus">Venus</option>
+            <option value="earth">Earth</option>
+            <option value="mars">Mars</option>
+            <option value="jupiter">Jupiter</option>
+            <option value="saturn">Saturn</option>
+            <option value="uranus">Uranus</option>
+            <option value="neptune">Neptune</option>
+            <option value="pluto">Pluto</option>
+        </select>
+        <button onclick="handleMassCalc()">Calculate Mass</button>
+    </div>
+
+    <div class="planetWrapper" id="mmm" style="display: none;">
+        <img id="pImg" src="https://raw.githubusercontent.com/Asabeneh/30-Days-Of-JavaScript/master/24_Day_Project_solar_system/24_day_starter/images/earth.png" alt="">
+        <div>
+            <h3>The mass of the object on <span id="p" style="font-weight: bold;"></span></h3>
+            <div class="circle" id="ans">98N</div>
+        </div>
+    </div>
+    <div class="planetWrapper" id="err" style="display: none;">
+       <h3>Mass is Required</h3>
+    </div>
+
+  </div>
+</body>
+<script src="./index.js"></script>
+</html>
