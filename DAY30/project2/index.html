@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+        }
+        body{
+            min-height: 100vh;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap: 20px;
+            overflow-y: auto;
+        }
+        form{
+            width: 30%;
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+        }
+        input{
+            width: 100%;
+            padding: 12px 17px;
+            border-radius: 4px;
+            border:1px solid lightgray;
+        }
+        div{
+            color: darkorange;
+            text-align: center;
+            font-weight: 600;
+        }
+        #sub{
+            width: 25%;
+            background-color: rgba(0, 0, 0, 0.7);
+            font-size: 1rem;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <h1>Validating Web Forms</h1>
+    <form action="" id="myForm">
+        <label for="">First Name</label>
+        <input type="text" id="i1">
+        <div id="e1" style="display: none;">First name must be alphanumeric and contain 3 - 16 characters</div>
+
+        <label for="">Last Name</label>
+        <input type="text" id="i2">
+        <div id="e2" style="display: none;">Last name must be alphanumeric and contain 3 - 16 characters</div>
+
+        <label for="">Email</label>
+        <input type="text" id="i3">
+        <div id="e3" style="display: none;">Email must be valid address e.g example@gmail.com</div>
+
+        <label for="">Password</label>
+        <input type="text" id="i4">
+        <div id="e4" style="display: none;">Password must be alphanumeric (@,_and - are also allowed)and between 6-20 characters</div>
+
+
+        <label for="">Telephone</label>
+        <input type="text" id="i5">
+        <div id="e5" style="display: none;">A valid Telephone Number (11 digits and 333-3333-3333)</div>
+
+        <label for="">Your bio</label>
+        <input type="text" id="i6">
+        <div id="e6" style="display: none;">Bio must contain only lowercase letters, underscore, hypens and be 8-50 characters</div>
+
+        <input id="sub" type="submit">
+    </form>
+</body>
+<script src="./index.js"></script>
+</html>

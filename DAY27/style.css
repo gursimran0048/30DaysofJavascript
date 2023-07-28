@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 1200px;
+    max-width: 90%;
+    overflow: hidden;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: monospace;
+    letter-spacing: 8px;
+    font-size: 3rem;
+}
+
+.userInfoBox {
+    font-family: monospace;
+    font-size: 1.5rem;
+    padding: 20px;
+    background-color: bisque;
+    margin-top: 20px;
+}
+
+.textSpan {
+    opacity: 0;
+    margin-left: -20px;
+    animation-name: slideIn;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+}
+
+@keyframes slideIn {
+    100% {
+        opacity: 1;
+        margin-left: 10px;
+    }
+}
+
+p {
+    margin: 20px 0;
+    font-family: monospace;
+    font-size: .9rem;
+    color: rgb(124, 120, 120);
+}
+
+strong {
+    color: black;
+}
+
+.boxWrapper {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    flex-wrap: wrap;
+}
+
+.box {
+    width: 20vw;
+    border: 1px solid lightgray;
+    height: 15vh;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+    transition: .3s all linear;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: scale(1.1);
+    background-color: bisque;
+}
+
+.skills {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1rem;
+}
+
+.spanSkills {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: .2s all linear;
+    color: red;
+}
+
+@media screen and (max-width:500px) {
+    html {
+        font-size: 50%;
+    }
+}

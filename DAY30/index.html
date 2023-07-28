@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>World Countries</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="heading">
+        <h1>World Countries Data</h1>
+        <h3>Currently, we have 250 countries</h3>
+    </div>
+
+    <div class="headingTop">
+      <input type="text" id="search" placeholder="Search country">
+      <div class="btns">
+        <button id="name">Name ↑</button>
+        <button id="cap">Capital</button>
+        <button id="popu">Population</button>
+      </div>
+    </div>
+
+    <div class="countries">
+        <!-- <div class="country">
+          <img src="https://via.placeholder.com/200x150" alt="">
+          <h3>INIDA</h3>
+          <div>Country Name : India</div>
+          <div>Languages : English,hindi.punjabi</div>
+          <div>Population : 1233</div>
+        </div> -->
+    </div>
+
+    <div class="heading headingMiddle">
+      <div>
+        <button onclick="setCountries()">POPULATIONS</button>
+        <button onclick="setLanguages()">LANGUAGES</button>
+      </div>
+
+    </div>
+    <div class="wrapper" id="wrapper">
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>

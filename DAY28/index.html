@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>30 days of JavaScript Challenge Leader Board</h1>
+    <div class="container">
+        <div class="inputBox">
+            <input type="text" placeholder="First name" id="fname">
+            <input type="text" placeholder="Last name" id="lname">
+            <input type="text" placeholder="Country" id="country">
+            <input type="number" placeholder="Score" id="score">
+            <button onclick="addItem(event)">Add player</button>
+        </div>
+        <div id="err" style="color: red; display: none;">All fields are required</div>
+        <div class="leaderBoard">
+           
+        </div>
+    </div>
+</body>
+<script src="./index.js"></script>
+</html>
